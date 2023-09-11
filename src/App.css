@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: white;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.secondheader {
+  margin-left: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#mainSection {
+  background: url('./chip.jpg') no-repeat center center/cover;
+  height: 70vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.boxonimage{
+  margin-top: 290px;
+  width: 50vw;
+  height: 40vh;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  box-shadow: darkgray;
+  border-style: solid;
+  border-color: beige;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#secondSection{
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+}
+.centralSection{
+  display: flex;
+  flex-direction: row;
+  padding-left: 5rem;
+  width: 30vw;
+}
+#thirdSection{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 7rem;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 80vw; */
+  padding-left: 12rem;
+  padding-right: 12rem;
+  /* box-sizing: border-box;
+  border-style: solid; */
+}
+.firstCard{
+  border: solid gray;
+  padding: 2rem;
+}
+.secondCard{
+  border: solid gray;
+  padding: 2rem;
+}
+.thirdCard{
+  border: solid gray;
+  padding: 2rem;
+}
+.cards1{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 80vw; */
+  padding-left: 12rem;
+  padding-right: 12rem;
+  /* box-sizing: border-box;
+  border-style: solid; */
+}
+#fourthSection{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 7rem;
+}
+.logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fithMainSection{
+  display: flex;
+  flex-direction: row;
+}
+#backgroundOfFifthSection{
+  background: url('./wood.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+}
+.sixthSection{
+  background-color: white;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 6rem;
+}
+.cards2{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* margin-left: 5rem; */
+  /* margin-right: 5rem; */
+}
+.newCard{
+  border: solid gray;
+}
+#seventhSection{
+  margin-top: 10rem;
+  height: 40vh;
+  background-color: brown;
 }
